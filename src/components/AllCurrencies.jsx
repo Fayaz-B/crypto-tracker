@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { ArrowDownOutlined, ArrowUpOutlined } from "@ant-design/icons";
+import {
+  ArrowDownOutlined,
+  ArrowUpOutlined,
+  PlusCircleOutlined,
+} from "@ant-design/icons";
 import { Avatar, Card, Col, Row, Statistic, Input, Divider } from "antd";
 import { useGetAllCoinQuery } from "../services/cryptoAPI";
 import { LineChart, Line, ResponsiveContainer, YAxis } from "recharts";
@@ -71,6 +75,10 @@ const AllCurrencies = ({ limited }) => {
                     className="crypto-logo"
                     size={50}
                     src={crypto.iconUrl}
+                  />
+                  <PlusCircleOutlined
+                    style={{ fontSize: "26px", color: "#4DA1FF" }}
+                    className="see-more"
                   />
                   <div className="flex justify-center items-center">
                     <div className="flex items-start gap-1 flex-col">
