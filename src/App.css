@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Css rests */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Root styles */
+:root {
+  --main-bg: #261e35;
+  --glassy-bg: #1c102edb;
+  --dark-shade: #2f293e;
+  --darkest-shade: #2b2638;
+  --text-color: #868b93;
+  --text-white: #ffffff;
+  --text-main: #868b93;
+  --purple: #9080ba;
+  --border: rgb(50 52 126 / 50%);
+  --menu-select: #372c44;
+  --main-shadow: rgba(255, 255, 255, 0.15);
+  --primary-btn: linear-gradient(90deg, #ac6aec 0%, #bb7ff5 100%);
+}
+/* Main styles */
+
+.main-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--main-bg);
+}
+
+.main {
+  width: 100%;
+  background-color: var(--main-bg);
+  color: white;
+}
+
+.content-container {
+  padding: 30px;
+}
+
+.ant-menu {
+  background-color: var(--main-bg);
+}
+
+.ant-menu-item.ant-menu-item-selected {
+  background-color: red;
+}
+
+.menu-container {
+  margin-top: 20px;
+}
+
+.ant-layout-sider-collapsed .brand-name {
+  display: none;
+}
+
+.ant-divider-horizontal.ant-divider-with-text-left::before,
+.ant-divider-horizontal.ant-divider-with-text-left::after {
+  border-top: 1px solid var(--border);
+}
+
+.card-container {
+  background: linear-gradient(
+    126.6deg,
+    rgb(255 255 255 / 6%) 28.69%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(70px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+  border-color: rgb(50 52 126 / 50%);
+}
+
+.card-container .ant-card-head {
+  border-color: rgb(50 52 126 / 50%);
+  font-weight: 500;
+}
+
+.crypto-card {
+  position: relative;
+  background-color: var(--glassy-bg);
+}
+
+.crypto-name {
+  font-weight: 400;
+}
+
+.crypto-logo {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.parsed h3 {
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 500;
+  text-decoration: underline;
+}
+.news-card {
+  height: 100%;
+}
+.news-card a {
+  color: #5d9cd3;
+}
+.ant-drawer-body {
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .stat-cont .ant-statistic-content {
+    font-size: 16px;
+  }
+  .news-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .hide-sidebar,
+  .ant-layout-sider {
+    display: none;
+  }
+  .content-container {
+    padding: 10px;
+  }
+  .card-container .ant-statistic-content {
+    font-size: 18px;
+  }
+}
