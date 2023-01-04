@@ -78,6 +78,7 @@ const HeaderTop = (props) => {
                 defaultSelectedKeys={[pathname]}
                 selectedKeys={[pathname]}
                 items={items}
+                onClick={() => setVisible(false)}
               />
             </Drawer>
           </>
