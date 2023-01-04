@@ -149,4 +149,10 @@ a {
   .card-container .ant-statistic-content {
     font-size: 18px;
   }
+  .coin-name {
+    font-size: 20px;
+  }
+  .stat .ant-statistic-content {
+    font-size: 16px;
+  }
 }

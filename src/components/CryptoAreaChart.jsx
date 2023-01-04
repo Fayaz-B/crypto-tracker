@@ -20,11 +20,7 @@ const dateFormatter = (date) => {
 const { useBreakpoint } = Grid;
 
 const CryptoAreaChart = ({ id, timeperiod }) => {
-  const {
-    data: coinHistory,
-    isFetching,
-    isSuccess,
-  } = useGetCoinHistoryQuery({
+  const { data: coinHistory } = useGetCoinHistoryQuery({
     id,
     timeperiod,
   });
@@ -80,6 +76,7 @@ const CryptoAreaChart = ({ id, timeperiod }) => {
             fillOpacity={1}
             strokeWidth={2}
             fill="url(#colorUv)"
+            isAnimationActive={true}
           />
         </AreaChart>
       </ResponsiveContainer>

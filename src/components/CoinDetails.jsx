@@ -133,7 +133,7 @@ const CoinDetails = () => {
     <>
       <Row>
         <div className="flex justify-between items-center gap-2">
-          <Title level={2} style={{ marginBottom: "0" }}>
+          <Title level={3} style={{ marginBottom: "0" }} className="coin-name">
             {coinDetails?.name} ({data?.data?.coin.symbol}){" "}
             <Avatar size="large" src={coinDetails.iconUrl} />
           </Title>
@@ -155,7 +155,9 @@ const CoinDetails = () => {
             />
           </div>
         </div>
-        <Divider orientation="left">{coinDetails.name} live chart</Divider>
+        <Divider orientation="left">
+          {coinDetails.name} live chart of last {timeperiod}
+        </Divider>
         <Col span={24}>
           <Select
             defaultValue={"24h"}
