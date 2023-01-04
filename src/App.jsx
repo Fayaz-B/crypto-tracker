@@ -31,16 +31,16 @@ function getItem(label, key, icon, children) {
 const items = [
   getItem(<Link to="/">Home</Link>, "/", <HomeOutlined />),
   getItem(
-    <Link to="/exchanges">Exchanges</Link>,
-    "/exchanges",
-    <MoneyCollectOutlined />
-  ),
-  getItem(
     <Link to="/currencies">Crypto Currencies</Link>,
     "/currencies",
     <FundOutlined />
   ),
   getItem(<Link to="/news">Crypto News</Link>, "/news", <BulbOutlined />),
+  getItem(
+    <Link to="/exchanges">Exchanges</Link>,
+    "/exchanges",
+    <MoneyCollectOutlined />
+  ),
 ];
 
 const { Content } = Layout;
