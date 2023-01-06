@@ -1,4 +1,4 @@
-# crypto-tracker
+# Cryptocurrency Tracker
 **Web application to track all the data of cryptocurrencies.**
 
 ## Table of contents
