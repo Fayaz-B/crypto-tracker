@@ -2,7 +2,7 @@
 **Web application to track all the data of cryptocurrencies.**
 
 ## Live Demo
-[Crypto-Tracker](https://crypto-tracker-fayaz-b.vercel.app)
+[Crypto Tracker Live Link](https://crypto-tracker-fayaz-b.vercel.app)
 
 ![Home Page](https://github.com/Fayaz-B/crypto-tracker/blob/main/public/home.png?raw=true)
 ![Coin Details Page](https://github.com/Fayaz-B/crypto-tracker/blob/main/public/details.png?raw=true)
