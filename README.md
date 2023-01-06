@@ -2,14 +2,15 @@
 **Web application to track all the data of cryptocurrencies.**
 
 ## Table of contents
-* [Live Demo] (https://crypto-tracker-fayaz-b.vercel.app]
+* [Live Demo](https://crypto-tracker-fayaz-b.vercel.app)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Setup](#setup)
 
 ## Live Demo
-[Crypto-Tracker] (https://crypto-tracker-fayaz-b.vercel.app)
+[Crypto-Tracker](https://crypto-tracker-fayaz-b.vercel.app)
+
 ## General info
  **This project is a cryptocurrency statistics tracker which gives the details such as**
  - Crypto prices (in every coin and in USD)
@@ -26,7 +27,7 @@ Project is created with:
 * Recharts (For displaying charts): 2.2
 * Vite (Package Manager): 4.0
 
-##Features
+## Features
 - Track the coin price for all the major crypto currencies real time.
 - Get graphic representation of the price fluctuation of coins.
 - Get all the metrics of market such as market cap, 24h traded volume.
