@@ -41,7 +41,7 @@ Project is created with:
 
 ## Sources
  - This app is inspired „Cryptoverse” app tutorial by [@adrianhajdin](https://github.com/adrianhajdin/project_cryptoverse)
- - Front-end design inspired by [@sajidwazir90](dribbble.com/sajidwazir90](https://dribbble.com/shots/15996045-Crypto-Dashboard-Free-Figma-UI)
+ - Front-end design inspired by [@sajidwazir90](https://dribbble.com/shots/15996045-Crypto-Dashboard-Free-Figma-UI)
 	
 ## Setup
 To run this project, install it locally using npm:
