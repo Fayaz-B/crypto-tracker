@@ -4,6 +4,9 @@
 ## Live Demo
 [Crypto-Tracker](https://crypto-tracker-fayaz-b.vercel.app)
 
+![Home Page](https://github.com/Fayaz-B/crypto-tracker/blob/main/public/home.png?raw=true)
+![Coin Details Page](https://github.com/Fayaz-B/crypto-tracker/blob/main/public/details.png?raw=true)
+
 ## Table of contents
 * [Live Demo](https://crypto-tracker-fayaz-b.vercel.app)
 * [General info](#general-info)
