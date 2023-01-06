@@ -20,6 +20,7 @@
  - Extensive price history and all-time highs
  - Ranks, supplies, market caps
  - Project information, such as descriptions and social media links
+ - Backend API by RapidAPIs [Coinranking API](https://rapidapi.com/Coinranking/api/coinranking1)
 	
 ## Technologies
 Project is created with:
