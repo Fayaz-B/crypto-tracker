@@ -12,6 +12,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
+* [Sources](#sources)
 * [Setup](#setup)
 
 ## General info
@@ -37,6 +38,10 @@ Project is created with:
 - Get all the metrics of market such as market cap, 24h traded volume.
 - Get the details of a coin along with price history chart upto 1 year.
 - Get News of cryptocurrencies and can sort it by coin name.
+
+## Sources
+This app is inspired „Cryptoverse” app tutorial by [@adrianhajdin](https://github.com/adrianhajdin/project_cryptoverse)
+Front-end design inspired by [@sajidwazir90](dribbble.com/sajidwazir90)
 	
 ## Setup
 To run this project, install it locally using npm:
