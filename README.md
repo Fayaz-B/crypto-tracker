@@ -1,15 +1,15 @@
 # Cryptocurrency Tracker
 **Web application to track all the data of cryptocurrencies.**
 
+## Live Demo
+[Crypto-Tracker](https://crypto-tracker-fayaz-b.vercel.app)
+
 ## Table of contents
 * [Live Demo](https://crypto-tracker-fayaz-b.vercel.app)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Setup](#setup)
-
-## Live Demo
-[Crypto-Tracker](https://crypto-tracker-fayaz-b.vercel.app)
 
 ## General info
  **This project is a cryptocurrency statistics tracker which gives the details such as**
