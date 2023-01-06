@@ -1,5 +1,43 @@
 # crypto-tracker
-Web application to track cryptocurrencies data about all coins, like price history, circulating supplies, exchanges, trading pairs, and much more.
+**Web application to track all the data of cryptocurrencies.**
 
-**Live Demo**
-https://crypto-tracker-fayaz-b.vercel.app
+## Table of contents
+* [Live Demo] (https://crypto-tracker-fayaz-b.vercel.app]
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Setup](#setup)
+
+## Live Demo
+[Crypto-Tracker] (https://crypto-tracker-fayaz-b.vercel.app)
+## General info
+ **This project is a cryptocurrency statistics tracker which gives the details such as**
+ - Crypto prices (in every coin and in USD)
+ - Extensive price history and all-time highs
+ - Ranks, supplies, market caps
+ - Project information, such as descriptions and social media links
+	
+## Technologies
+Project is created with:
+* React JS (For Front-end) : 18.2
+* Redux (For state management): 1.9
+* Ant Design (For component library): 5.1
+* Tailwindcss (For css framework): 3.2
+* Recharts (For displaying charts): 2.2
+* Vite (Package Manager): 4.0
+
+##Features
+- Track the coin price for all the major crypto currencies real time.
+- Get graphic representation of the price fluctuation of coins.
+- Get all the metrics of market such as market cap, 24h traded volume.
+- Get the details of a coin along with price history chart upto 1 year.
+- Get News of cryptocurrencies and can sort it by coin name.
+	
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../crypto-tracker
+$ npm install
+$ npm run dev
+```
